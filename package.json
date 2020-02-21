@@ -8,6 +8,7 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
+		"db": "json-server db.json",
 		"postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
 	},
 	"private": true,
@@ -20,6 +21,10 @@
 		"@angular/platform-browser": "~9.0.2",
 		"@angular/platform-browser-dynamic": "~9.0.2",
 		"@angular/router": "~9.0.2",
+		"@ngrx/effects": "^8.6.0",
+		"@ngrx/store": "^8.6.0",
+		"@ngrx/store-devtools": "^8.6.0",
+		"ngrx-store-freeze": "^0.2.4",
 		"rxjs": "~6.5.4",
 		"tslib": "^1.11.0",
 		"zone.js": "~0.10.2"
@@ -29,9 +34,9 @@
 		"@angular/cli": "~9.0.3",
 		"@angular/compiler-cli": "~9.0.2",
 		"@angular/language-service": "~9.0.2",
-		"@types/node": "^13.7.4",
 		"@types/jasmine": "~3.5.6",
 		"@types/jasminewd2": "~2.0.8",
+		"@types/node": "^13.7.4",
 		"codelyzer": "^5.2.1",
 		"jasmine-core": "~3.5.0",
 		"jasmine-spec-reporter": "~4.2.1",
@@ -43,6 +48,6 @@
 		"protractor": "~5.4.3",
 		"ts-node": "~8.6.2",
 		"tslint": "~6.0.0",
-		"typescript": "~3.8.2"
+		"typescript": "~3.6.0"
 	}
 }
